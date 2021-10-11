@@ -1,4 +1,4 @@
-# Ars_msf_state_estimator
+# Ars msf state estimator
 THis project will  develop a  multi-sensor  fusion state  estimator  based  on  an  Extended  Kalman  Filter (EKF),  to  combine  the  different  asynchronous  measurements  provided  by sensors. The algorithm will provide an estimate of the state of the robot, i.e. pose of the robot, and velocity of the robot in world frame, at a rate of 100 Hz.
 
 The ROS package ars_sim_sensors_robotincludes three ROS nodes that simulate the aforementioned sensors, by publishing ROS messages with the measurements of the simulated sensors.
