@@ -11,3 +11,5 @@ The sensor works at 50 Hz, and the measurements have a covariance of 0.005in pit
 ## Position sensorROS node: ars_sim_sensor_posi_robot_ros_node.py
 Message type and topic name:/meas_robot_position[Geometry_msgs/PointStamped]
 The sensor works at 1 Hz, and the measurements have a covariance of 0.05in each dimension.
+## Demo
+[![SC2 Video](hw3.gif)]
